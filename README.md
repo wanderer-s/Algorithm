@@ -14,13 +14,14 @@ Algorithm 문제는 정답이 하나로 정해져 있지 않기때문에 많은 
 1. 해당 repository fork 후 원 repository를 `upstream remote`로 설정<br>
    `git remote add upstream https://github.com/Study-for-better-than-yesterday/Algorithm.git`
 2. `Leetcode`, `Programmers` 포함 기타 다른 문제풀이 사이트에서 본인이 풀어보고자 하는 문제를 선정
-3. `문제출처 사이트 - 문제이름` 으로 branch 생성
+3. `문제출처 사이트 문제이름` 으로 branch 생성 (under_bar)<br>
+   **ex)** `LeetCode_1_problem`, `Programmers_problem`
 4. 1. 아래 첨부된 폴더구조에 맞게 폴더 및 `readme.md` 작성 <br>(해당 사이트의 문제설명과 똑같이 작성하고, link도 걸어주세요 - 기존에 작성된 `readme.md` 파일 참고..!)
    2. 폴더가 존재한다면 본인의 문제풀이만 `githubId(or nickname).본인이 풀은 언어의 확장자` 로 생성하여 작성.<br>(최대한 변수명과 logic이 명확하게 작성해주세요. _이렇게 배워 갈 수 있는 협업 환경!!_) <br>
       **ex)** `bestDev.js`, `bestDeb.py`, `bestDev.java` etc..
    3. 필수는 아니지만 algorithm 사이트의 결과값을 주석으로 포함하면 더 좋아요! <br>
       **ex)** ` Runtime 60ms Memory 40.7MB`
-4. git push origin 해당 branch!!!
+5. git push origin 해당 branch!!!
 
 **매번 `git pull upstream master` 를 하는 것을 잊지마세요**
 
